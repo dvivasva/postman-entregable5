@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "a0858a1a-7ed7-49d2-936f-26394a453b46",
+		"name": "Entregable 5",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "request buy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"amount\":220.50,\r\n    \"payMode\":\"Yunki\",\r\n    \"number\":\"986413489\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8089/buy-bootCoin/request",
+					"host": [
+						"localhost"
+					],
+					"port": "8089",
+					"path": [
+						"buy-bootCoin",
+						"request"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
